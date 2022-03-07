@@ -630,6 +630,7 @@ section {
   color: #647e51;
 }
 
+
 /* About Us Section
 --------------------------------*/
 #about-us img {
@@ -688,6 +689,14 @@ section {
   margin-bottom: 0;
 }
 
+#features i {
+	height: 60px;
+	width: 60px;
+	marigin-bottom: 30px;
+	color: #92d283;
+	font-size: 60px;
+}
+
 /* Screenshots Section
 --------------------------------*/
 #screenshots .swiper-pagination {
@@ -708,14 +717,14 @@ section {
 /* Video Section
 --------------------------------*/
 #video {
-  background: url(../img/video-bg.jpg) center center;
+  background: url(../img/LOV.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
   overflow: hidden;
 }
 #video .overlay {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.55);
   height: 100%;
 }
 #video .overlay .play-btn {
@@ -819,17 +828,18 @@ section {
 /* Team Section
 --------------------------------*/
 #team .team-block {
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
-  height: 254px;
+  height: 100%;
   overflow: hidden;
   position: relative;
   width: 100%;
+  margin-bottom: 30px;
 }
 @media (max-width: 991px) {
   #team .team-block {
     margin-bottom: 30px;
   }
 }
+
 #team .team-block img {
   width: 100%;
 }
@@ -873,6 +883,30 @@ section {
 #team .team-block:hover .team-content {
   bottom: 0px;
   transition: all 0.5s ease-in-out 0s;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; 
+  text-align: justify;
+  /* Could be more or less, depending on screen size */
 }
 
 /* Testimonials Section
