@@ -42,16 +42,16 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link" href="index.html">Strona główna</a></li>
-          <li><a class="nav-link" href="index.html">O nas</a></li>
+          <li><a class="nav-link" href="index.html#features">O nas</a></li>
           
-          <li class="dropdown"><a href="our-team.html"><span>Nasz zespół</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a><span>Nasz zespół</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="participants.html">Uczestnicy</a></li>
               <li><a class="active" href="coordinators.html">Koordynatorzy</a></li>         
 			</ul>
           </li>
-          <li><a class="nav-link" href="blog.html">Aktualności</a></li>
-          <li><a class="nav-link" href="index.html">Kontakt</a></li>
+          <!--<li><a class="nav-link" href="blog.html">Aktualności</a></li>-->
+          <li><a class="nav-link" href="index.html#newsletter">Kontakt</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -77,13 +77,73 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page pt-4">
-      <div class="container">
-        <p>
-          Strona w budowie!
-        </p>
-      </div>
-    </section>
+    <section id="team" class="padd-section text-center">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+
+          <h2>Koordynatorzy projektu</h2>
+          <p class="separator">Nauczycielki LO V we Wrocławiu</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 col-md-4 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="team-block bottom">
+              <img src="assets/img/coordinators/magda-krakowska.jpg" class="img-responsive" alt="img">
+              <div class="team-content">
+                <h4>p. Magdalena Krakowska</h4>
+				<a class="more-info" id="more-info-MK"><i class="bi bi-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-4 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-block bottom">
+              <img src="assets/img/team/anna-molasy.jpg" class="img-responsive" alt="img">
+              <div class="team-content">
+                <h4>p. Anna Molasy</h4>
+				<a class="more-info" id="more-info-AM"><i class="bi bi-plus"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-md-4 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="team-block bottom">
+              <img src="assets/img/team/joanna-pichur-mitas.jpg" class="img-responsive" alt="img">
+              <div class="team-content">
+                <h4>p. Joanna Pichur-Mitas</h4>
+				<a class="more-info" id="more-info-JP"><i class="bi bi-plus"></i></a>
+              </div>
+            </div>
+          </div>
+		</div>
+	  </div>
+	</section>
+	
+	<div id="MKmodal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="MKmodalClose">&times;</span>
+			<p>Nauczyciel geografii i ekonomii w V Liceum Ogólnokształcącym we Wrocławiu. Uczy zarówno w programie narodowym jak i w klasach międzynarodowych IB. Uzyskała tytuł magistra na Uniwersytecie Wrocławskim na kierunku geografia społeczno-ekonomiczna. Rok później ukończyła również  na Uniwersytecie Wrocławskim studia magisterskie na kierunku ekonomia menadżerska na wydziale Prawa Administracji i Ekonomii. Studiowała również nauki przestrzenne w ramach programu Erasmus na University of Groningen Faculty of Spatial Science. Początkowo swoją karierę na kilka lat związała z bankowością i pracowała w międzynarodowej korporacji. Ukończyła studia podyplomowe „Wycena nieruchomości”, a także „Doradztwo zawodowe i przedsiębiorczość na Wyższej Szkole Bankowej we Wrocławiu.</p>
+		</div>
+	</div>
+	
+	<div id="AMmodal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="AMmodalClose">&times;</span>
+			<p>Opis już wkrótce!</p>
+		</div>
+	</div>
+	
+	<div id="JPmodal" class="modal">
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="JPmodalClose">&times;</span>
+			<p>Opis już wkrótce!</p>
+		</div>
+	</div>
 
   </main><!-- End #main -->
 
@@ -134,7 +194,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/coordinators.js"></script>
 
 </body>
 
