@@ -313,6 +313,14 @@ function popupModal(speakerModal, speakerBtn, speakerSpan) {
 	// Get the <span> element that closes the modal
 	var OBmodalClose = document.getElementsByClassName("OBmodalClose")[0];
 	popupModal(OBmodal, OBBtn, OBmodalClose);
+	
+	// Get the modal
+	var ASmodal = document.getElementById("ASmodal");
+	// Get the button that opens the modal
+	var ASBtn = document.getElementById("more-info-AS");
+	// Get the <span> element that closes the modal
+	var ASmodalClose = document.getElementsByClassName("ASmodalClose")[0];
+	popupModal(ASmodal, ASBtn, ASmodalClose);
 
 	
 	window.onclick = function(event) {
@@ -360,6 +368,9 @@ function popupModal(speakerModal, speakerBtn, speakerSpan) {
 	  }
 	  else if (event.target == OBmodal) {
 		OBmodal.style.display = "none";
+	  }
+	  else if (event.target == ASmodal) {
+		ASmodal.style.display = "none";
 	  }
 	}
 
