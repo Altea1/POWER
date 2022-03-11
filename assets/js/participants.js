@@ -267,12 +267,12 @@ function popupModal(speakerModal, speakerBtn, speakerSpan) {
 	popupModal(AKmodal, AKBtn, AKmodalClose);
 	
 	// Get the modal
-	var DGmodal = document.getElementById("DGmodal");
+	//var DGmodal = document.getElementById("DGmodal");
 	// Get the button that opens the modal
-	var DGBtn = document.getElementById("more-info-DG");
+	//var DGBtn = document.getElementById("more-info-DG");
 	// Get the <span> element that closes the modal
-	var DGmodalClose = document.getElementsByClassName("DGmodalClose")[0];
-	popupModal(DGmodal, DGBtn, DGmodalClose);
+	//var DGmodalClose = document.getElementsByClassName("DGmodalClose")[0];
+	//popupModal(DGmodal, DGBtn, DGmodalClose);
 
 	// Get the modal
 	var KPmodal = document.getElementById("KPmodal");
@@ -283,12 +283,12 @@ function popupModal(speakerModal, speakerBtn, speakerSpan) {
 	popupModal(KPmodal, KPBtn, KPmodalClose);
 
 	// Get the modal
-	var MMmodal = document.getElementById("MMmodal");
+	//var MMmodal = document.getElementById("MMmodal");
 	// Get the button that opens the modal
-	var MMBtn = document.getElementById("more-info-MM");
+	//var MMBtn = document.getElementById("more-info-MM");
 	// Get the <span> element that closes the modal
-	var MMmodalClose = document.getElementsByClassName("MMmodalClose")[0];
-	popupModal(MMmodal, MMBtn, MMmodalClose);
+	//var MMmodalClose = document.getElementsByClassName("MMmodalClose")[0];
+	//popupModal(MMmodal, MMBtn, MMmodalClose);
 
 	// Get the modal
 	var MSmodal = document.getElementById("MSmodal");
@@ -351,15 +351,15 @@ function popupModal(speakerModal, speakerBtn, speakerSpan) {
 	  else if (event.target == AKmodal) {
 		AKmodal.style.display = "none";
 	  }
-	  else if (event.target == DGmodal) {
-		DGmodal.style.display = "none";
-	  }
+	  //else if (event.target == DGmodal) {
+		//DGmodal.style.display = "none";
+	  //}
 	  else if (event.target == KPmodal) {
 		KPmodal.style.display = "none";
 	  }
-	  else if (event.target == MMmodal) {
-		MMmodal.style.display = "none";
-	  }
+	  //else if (event.target == MMmodal) {
+		//MMmodal.style.display = "none";
+	  //}
 	  else if (event.target == MSmodal) {
 		MSmodal.style.display = "none";
 	  }
