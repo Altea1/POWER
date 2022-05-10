@@ -722,16 +722,52 @@ section {
 /* Video Section
 --------------------------------*/
 #video {
-  background: url(../img/LOV.jpg) center center;
   background-repeat: no-repeat;
-  background-size: cover;
   height: 400px;
   overflow: hidden;
+  margin-bottom: 30px;
 }
+
+.main {
+	background: url(../img/LOV.jpg) center center;
+	background-size: cover;
+}
+
+.v1 {
+	background: url(../../blog/blog-img/25-10-2021-01/v1.jpg) center center;
+	background-size: cover;
+}
+
+.v2 {
+	background: url(../../blog/blog-img/25-10-2021-01/v2.jpg) center center;
+	background-size: cover;
+}
+
+.v3 {
+	background: url(../../blog/blog-img/25-10-2021-01/v3.jpg) center center;
+	background-size: cover;
+}
+
+.v4 {
+	background: url(../../blog/blog-img/25-10-2021-01/v4.jpg) center center;
+	background-size: cover;
+}
+
+.v5 {
+	background: url(../../blog/blog-img/25-10-2021-01/v5.jpg) center center;
+	background-size: cover;
+}
+
+.v6 {
+	background: url(../../blog/blog-img/25-10-2021-01/v6.jpg) center center;
+	background-size: cover;
+}
+
 #video .overlay {
   background: rgba(0, 0, 0, 0.55);
   height: 100%;
 }
+
 #video .overlay .play-btn {
   width: 94px;
   height: 94px;
